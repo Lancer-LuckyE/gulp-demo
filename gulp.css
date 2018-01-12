@@ -1,0 +1,104 @@
+body{
+	font-family:"Microsoft Yahei";
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+/*title*/
+.title {
+	position: fixed;
+	width: 100%;
+	height: 50px;
+	background-color: #CE4646;
+}
+.header a{
+	color: rgb(225, 225, 225);
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	background-color: #CE4646;
+	display: block;
+	width: 130px;
+	height: 37px;
+	padding-top: 13px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 4%;
+}
+
+.title ul{
+	float: right;
+	margin-right: 4%;
+}
+.title li {
+	list-style: none;
+	float: left;
+}
+
+.menu a{
+	color: rgb(225, 225, 225);
+	padding: 11px 12px 0px;
+	display: block;
+	text-decoration: none;
+	background-color: #CE4646;
+	height: 39px;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+/* Poster*/
+.poster{
+
+	padding-top: 5%;
+	clear: both;
+	background-color: #CE4646;
+	text-align: center;
+	height: 370px;
+}
+.poster h2{
+	color: #FFFFFF;
+	font-weight: 300;
+	margin-bottom: 60px;
+}
+
+.Start{
+	text-decoration: none;
+	padding: 10px 5px;
+	color: rgb(225, 225, 225);
+	font-size: 140%;
+	width: 110px;
+	height: 40px;
+	border: 2px solid rgb(225, 225, 225);
+}
+.Start:hover{
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+}
+
+/*content*/
+.content{
+	width: 90%;
+	margin: 65px auto;
+}
+.content h1{
+	font-weight: 400;
+	font-size: 30px;
+}
+.content li {
+	font-size: 18px;
+	margin: 20px 0px;
+	list-style: none;
+	width: 50%;
+	min-height: 100px;
+	float: left;
+}
+/*bottom*/
+.bottom{
+	color: #878787;
+	font-size: 13px;
+	text-align: center;
+	clear: both;
+}
